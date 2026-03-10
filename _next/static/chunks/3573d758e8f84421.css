@@ -27,7 +27,7 @@
     --gradient-primary: linear-gradient(135deg, #85b642, #0a8947);
     --gradient-warm: linear-gradient(135deg, #a4cf30, #f4e04d);
     --gradient-cool: linear-gradient(135deg, #1e40af, #3b82f6);
-    --gradient-ig: linear-gradient(45deg, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+    --gradient-ig: linear-gradient(#ffffff);
     --gradient-lemon: linear-gradient(135deg, #f4e04d, #fbbf24);
     --shadow-sm: 0 1px 3px #0000000f;
     --shadow-md: 0 4px 20px #00000014;
@@ -92,8 +92,6 @@ img {
 }
 
 .gradient-text-ig {
-    background: var(--gradient-ig);
-    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text
 }
@@ -2481,7 +2479,7 @@ img {
 }
 
 .sp-service-card {
-    background: #fff;
+    background: #ffffff;
     border: 1px solid #e5e7eb;
     border-radius: 20px;
     transition: transform .4s, box-shadow .4s;
@@ -3329,7 +3327,7 @@ img {
 }
 
 .sp-card-number {
-    color: #0000000f;
+    color: #ffff;
     font-family: Nunito, sans-serif;
     font-size: 1.6rem;
     font-weight: 900;
